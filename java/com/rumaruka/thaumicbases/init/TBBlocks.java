@@ -118,92 +118,92 @@ public class TBBlocks {
     public static void init() {
 
         //Old Style Blocks
-        oldcobble = new TBBlock(Material.ROCK, false).setUnlocalizedName("oldcobble").setHardness(1).setResistance(1).setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
+        oldcobble = new TBBlock(Material.ROCK, false).setUnlocalizedName(TBCore.modid + "." + "oldcobble").setHardness(1).setResistance(1).setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
         oldcobble.setHarvestLevel("piclaxe", 0);
-        oldcobblemossy = new TBBlock(Material.ROCK, false).setUnlocalizedName("oldcobblemossy").setHardness(1).setResistance(1).setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
+        oldcobblemossy = new TBBlock(Material.ROCK, false).setUnlocalizedName(TBCore.modid + "." + "oldcobblemossy").setHardness(1).setResistance(1).setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
         oldcobblemossy.setHarvestLevel("piclaxe", 0);
-        oldgravel = new TBBlock(Material.SAND, false).setSoundType(SoundType.GROUND).setUnlocalizedName("oldgravel").setHardness(1).setResistance(1).setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
+        oldgravel = new TBBlock(Material.SAND, false).setSoundType(SoundType.GROUND).setUnlocalizedName(TBCore.modid + "." + "oldgravel").setHardness(1).setResistance(1).setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
         oldgravel.setHarvestLevel("shovel", 0);
-        oldbrick = new TBBlock(Material.ROCK, false).setUnlocalizedName("oldbrick").setHardness(1).setResistance(1).setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
+        oldbrick = new TBBlock(Material.ROCK, false).setUnlocalizedName(TBCore.modid + "." + "oldbrick").setHardness(1).setResistance(1).setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
         oldbrick.setHarvestLevel("piclaxe", 0);
-        oldlapis = new TBBlock(Material.ROCK, false).setUnlocalizedName("oldlapis").setHardness(1).setResistance(1).setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
+        oldlapis = new TBBlock(Material.ROCK, false).setUnlocalizedName(TBCore.modid + "." + "oldlapis").setHardness(1).setResistance(1).setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
         oldlapis.setHarvestLevel("piclaxe", 0);
-        oldiron = new TBSidedBlock(Material.IRON, false).setUnlocalizedName("oldiron").setHardness(1).setResistance(1).setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
+        oldiron = new TBSidedBlock(Material.IRON, false).setUnlocalizedName(TBCore.modid + "." + "oldiron").setHardness(1).setResistance(1).setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
         oldiron.setHarvestLevel("piclaxe", 0);
-        oldgold = new TBSidedBlock(Material.IRON, false).setUnlocalizedName("oldgold").setHardness(1).setResistance(1).setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
+        oldgold = new TBSidedBlock(Material.IRON, false).setUnlocalizedName(TBCore.modid + "." + "oldgold").setHardness(1).setResistance(1).setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
         oldgold.setHarvestLevel("piclaxe", 0);
-        olddiamond = new TBSidedBlock(Material.IRON, false).setUnlocalizedName("olddiamond").setHardness(1).setResistance(1).setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
+        olddiamond = new TBSidedBlock(Material.IRON, false).setUnlocalizedName(TBCore.modid + "." + "olddiamond").setHardness(1).setResistance(1).setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
         olddiamond.setHarvestLevel("piclaxe", 0);
         //Thaumcraft DecoBlock
-        quicksilverblock = new TBBlock(Material.ROCK, false).stabilise().setUnlocalizedName("quicksilverBlock").setHardness(0.5F).setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
+        quicksilverblock = new TBBlock(Material.ROCK, false).stabilise().setUnlocalizedName(TBCore.modid + "." + "quicksilverBlock").setHardness(0.5F).setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
         quicksilverblock.setHarvestLevel("pickaxe", 0);
-        quicksilverbrick = new TBBlock(Material.ROCK, false).stabilise().setUnlocalizedName("quicksilverBrick").setHardness(0.5F).setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
+        quicksilverbrick = new TBBlock(Material.ROCK, false).stabilise().setUnlocalizedName(TBCore.modid + "." + "quicksilverBrick").setHardness(0.5F).setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
         quicksilverbrick.setHarvestLevel("pickaxe", 0);
-        dustblock = new TBBlock(Material.SAND, false).stabilise().setUnlocalizedName("dustBlock").setHardness(0.5F).setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
+        dustblock = new TBBlock(Material.SAND, false).stabilise().setUnlocalizedName(TBCore.modid + "." + "dustBlock").setHardness(0.5F).setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
         dustblock.setHarvestLevel("pickaxe", 0);
-        blockthauminite = new TBBlock(Material.SAND, false).stabilise().setUnlocalizedName("blockthauminite").setHardness(0.5F).setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
+        blockthauminite = new TBBlock(Material.SAND, false).stabilise().setUnlocalizedName(TBCore.modid + "." + "blockthauminite").setHardness(0.5F).setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
         blockthauminite.setHarvestLevel("pickaxe", 0);
-        irongreatwood = new TBBlock(Material.SAND, false).stabilise().setUnlocalizedName("irongreatwood").setHardness(0.5F).setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
+        irongreatwood = new TBBlock(Material.SAND, false).stabilise().setUnlocalizedName(TBCore.modid + "." + "irongreatwood").setHardness(0.5F).setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
         irongreatwood.setHarvestLevel("pickaxe", 0);
-        eldritchark = new TBBlock(Material.SAND, false).stabilise().setUnlocalizedName("eldritchark").setHardness(0.5F).setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
+        eldritchark = new TBBlock(Material.SAND, false).stabilise().setUnlocalizedName(TBCore.modid + "." + "eldritchark").setHardness(0.5F).setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
         eldritchark.setHarvestLevel("pickaxe", 0);
         //TB Blocks
-        crystalblockair = new TBBlockCrytal(Material.GLASS, false).setUnlocalizedName("crystalblockair").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs).setHardness(0.5F);
+        crystalblockair = new TBBlockCrytal(Material.GLASS, false).setUnlocalizedName(TBCore.modid + "." + "crystalblockair").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs).setHardness(0.5F);
         crystalblockair.setHarvestLevel("pickaxe", 0);
-        crystalblockfire = new TBBlockCrytal(Material.GLASS, false).setUnlocalizedName("crystalblockfire").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs).setHardness(0.5F);
+        crystalblockfire = new TBBlockCrytal(Material.GLASS, false).setUnlocalizedName(TBCore.modid + "." + "crystalblockfire").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs).setHardness(0.5F);
         crystalblockfire.setHarvestLevel("pickaxe", 0);
-        crystalblockwater = new TBBlockCrytal(Material.GLASS, false).setUnlocalizedName("crystalblockwater").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs).setHardness(0.5F);
+        crystalblockwater = new TBBlockCrytal(Material.GLASS, false).setUnlocalizedName(TBCore.modid + "." + "crystalblockwater").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs).setHardness(0.5F);
         crystalblockwater.setHarvestLevel("pickaxe", 0);
-        crystalblockearth = new TBBlockCrytal(Material.GLASS, false).setUnlocalizedName("crystalblockearth").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs).setHardness(0.5F);
+        crystalblockearth = new TBBlockCrytal(Material.GLASS, false).setUnlocalizedName(TBCore.modid + "." + "crystalblockearth").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs).setHardness(0.5F);
         crystalblockearth.setHarvestLevel("pickaxe", 0);
-        crystalblockorder = new TBBlockCrytal(Material.GLASS, false).setUnlocalizedName("crystalblockorder").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs).setHardness(0.5F);
+        crystalblockorder = new TBBlockCrytal(Material.GLASS, false).setUnlocalizedName(TBCore.modid + "." + "crystalblockorder").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs).setHardness(0.5F);
         crystalblockorder.setHarvestLevel("pickaxe", 0);
-        crystalblockentropy = new TBBlockCrytal(Material.GLASS, false).setUnlocalizedName("crystalblockentropy").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs).setHardness(0.5F);
+        crystalblockentropy = new TBBlockCrytal(Material.GLASS, false).setUnlocalizedName(TBCore.modid + "." + "crystalblockentropy").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs).setHardness(0.5F);
         crystalblockentropy.setHarvestLevel("pickaxe", 0);
-        crystalblockmixed = new TBBlockCrytal(Material.GLASS, false).setUnlocalizedName("crystalblockmixed").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs).setHardness(0.5F);
+        crystalblockmixed = new TBBlockCrytal(Material.GLASS, false).setUnlocalizedName(TBCore.modid + "." + "crystalblockmixed").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs).setHardness(0.5F);
         crystalblockmixed.setHarvestLevel("pickaxe", 0);
-        crystalblocktainted = new TBBlockCrytal(Material.GLASS, false).setUnlocalizedName("crystalblocktainted").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs).setHardness(0.5F);
+        crystalblocktainted = new TBBlockCrytal(Material.GLASS, false).setUnlocalizedName(TBCore.modid + "." + "crystalblocktainted").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs).setHardness(0.5F);
         crystalblocktainted.setHarvestLevel("pickaxe", 0);
         pyrofluid = new BlockPyrofluid();
-        pyrosolid = new BlockPyrosolid().setUnlocalizedName("pyrosolid");
+        pyrosolid = new BlockPyrosolid().setUnlocalizedName(TBCore.modid + "." + "pyrosolid");
         //Plant
-        sweed = new BlockSweed(4,4,false).setUnlocalizedName("sweed");
-        plax = new BlockPlax(7, 4, true).setUnlocalizedName("plax");
-        aurelia = new BlockAureliaPlant().setUnlocalizedName("aurelia").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
-        aureliapetalb = new BlockAureliaLeaf().setUnlocalizedName("aureliapetalb");
-        tobacco = new BlockTobacco(7,4,true).setUnlocalizedName("tobacco");
-        metalleat = new BlockMetalleat(7,8,true).setUnlocalizedName("metalleat");
-        lazullia = new BlockLazullia(7,16,true).setUnlocalizedName("lazullia");
-        redlonstem = new BlockRedlonStem(Blocks.REDSTONE_BLOCK).setUnlocalizedName("redlonstem");
-        lucrite = new BlockLucritePlant(7,16,true).setUnlocalizedName("lucrite");
-        flaxium = new BlockFlaxium().setUnlocalizedName("flaxium");
-        briar = new BlockTBBush().setUnlocalizedName("briar");
-        glieonia = new BlockGlieonia(3,12,false).setUnlocalizedName("glieonia");
-        voidplant = new BlockVoidPlant(3,32,true).setUnlocalizedName("voidplant");
+        sweed = new BlockSweed(4,4,false).setUnlocalizedName(TBCore.modid + "." + "sweed");
+        plax = new BlockPlax(7, 4, true).setUnlocalizedName(TBCore.modid + "." + "plax");
+        aurelia = new BlockAureliaPlant().setUnlocalizedName(TBCore.modid + "." + "aurelia").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
+        aureliapetalb = new BlockAureliaLeaf().setUnlocalizedName(TBCore.modid + "." + "aureliapetalb");
+        tobacco = new BlockTobacco(7,4,true).setUnlocalizedName(TBCore.modid + "." + "tobacco");
+        metalleat = new BlockMetalleat(7,8,true).setUnlocalizedName(TBCore.modid + "." + "metalleat");
+        lazullia = new BlockLazullia(7,16,true).setUnlocalizedName(TBCore.modid + "." + "lazullia");
+        redlonstem = new BlockRedlonStem(Blocks.REDSTONE_BLOCK).setUnlocalizedName(TBCore.modid + "." + "redlonstem");
+        lucrite = new BlockLucritePlant(7,16,true).setUnlocalizedName(TBCore.modid + "." + "lucrite");
+        flaxium = new BlockFlaxium().setUnlocalizedName(TBCore.modid + "." + "flaxium");
+        briar = new BlockTBBush().setUnlocalizedName(TBCore.modid + "." + "briar");
+        glieonia = new BlockGlieonia(3,12,false).setUnlocalizedName(TBCore.modid + "." + "glieonia");
+        voidplant = new BlockVoidPlant(3,32,true).setUnlocalizedName(TBCore.modid + "." + "voidplant");
         //Tree
-        goldenlogs = new BlockTBLog().setUnlocalizedName("goldenlogs").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
-        goldenleaves = new BlockTBLeaves(0).setUnlocalizedName("goldenleaves").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
-        goldenplanks = new BlockTBPlanks().setUnlocalizedName("goldenplanks").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
-        goldensapling = new BlockTBSapling(0).setUnlocalizedName("goldensapling").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
-        nethersapling = new BlockTBSapling(1).setUnlocalizedName("nethersapling").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
-        netherleaves = new BlockTBLeaves(1).setUnlocalizedName("netherleaves").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
-        netherplanks = new BlockTBPlanks().setUnlocalizedName("netherplanks").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
-        netherlogs = new BlockTBLog().setUnlocalizedName("netherlogs").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
-        endersapling = new BlockTBSapling(2).setUnlocalizedName("endersapling").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
-        enderleaves = new BlockTBLeaves(2).setUnlocalizedName("enderleaves").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
-        enderplanks = new BlockTBPlanks().setUnlocalizedName("enderplanks").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
-        enderlogs = new BlockTBLog().setUnlocalizedName("enderlogs").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
+        goldenlogs = new BlockTBLog().setUnlocalizedName(TBCore.modid + "." + "goldenlogs").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
+        goldenleaves = new BlockTBLeaves(0).setUnlocalizedName(TBCore.modid + "." + "goldenleaves").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
+        goldenplanks = new BlockTBPlanks().setUnlocalizedName(TBCore.modid + "." + "goldenplanks").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
+        goldensapling = new BlockTBSapling(0).setUnlocalizedName(TBCore.modid + "." + "goldensapling").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
+        nethersapling = new BlockTBSapling(1).setUnlocalizedName(TBCore.modid + "." + "nethersapling").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
+        netherleaves = new BlockTBLeaves(1).setUnlocalizedName(TBCore.modid + "." + "netherleaves").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
+        netherplanks = new BlockTBPlanks().setUnlocalizedName(TBCore.modid + "." + "netherplanks").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
+        netherlogs = new BlockTBLog().setUnlocalizedName(TBCore.modid + "." + "netherlogs").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
+        endersapling = new BlockTBSapling(2).setUnlocalizedName(TBCore.modid + "." + "endersapling").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
+        enderleaves = new BlockTBLeaves(2).setUnlocalizedName(TBCore.modid + "." + "enderleaves").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
+        enderplanks = new BlockTBPlanks().setUnlocalizedName(TBCore.modid + "." + "enderplanks").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
+        enderlogs = new BlockTBLog().setUnlocalizedName(TBCore.modid + "." + "enderlogs").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
         //Spike
-        ironspike = new BlockIronSpike().setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs).setUnlocalizedName("ironspike");
-        thaumspike = new BlockThaumSpike().setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs).setUnlocalizedName("thaumspike");
-        voidspike = new BlockVoidSpike().setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs).setUnlocalizedName("voidspike");
+        ironspike = new BlockIronSpike().setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs).setUnlocalizedName(TBCore.modid + "." + "ironspike");
+        thaumspike = new BlockThaumSpike().setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs).setUnlocalizedName(TBCore.modid + "." + "thaumspike");
+        voidspike = new BlockVoidSpike().setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs).setUnlocalizedName(TBCore.modid + "." + "voidspike");
         //Main Mechanism TB
-        overchanter = new BlockOverchanter().setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs).setUnlocalizedName("overchanter");
-        campfire = new BlockCampfire().setUnlocalizedName("campfire").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
-        braizer = new BlockBraizer().setUnlocalizedName("braizer").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
+        overchanter = new BlockOverchanter().setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs).setUnlocalizedName(TBCore.modid + "." + "overchanter");
+        campfire = new BlockCampfire().setUnlocalizedName(TBCore.modid + "." + "campfire").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
+        braizer = new BlockBraizer().setUnlocalizedName(TBCore.modid + "." + "braizer").setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs);
 
         //Cactus ALONE :<
-        rainbowcactus = new BlockRainbowCactus().setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs).setUnlocalizedName("rainbowcactus");
+        rainbowcactus = new BlockRainbowCactus().setCreativeTab(TBCreativeTabs.TB_CREATIVEtabs).setUnlocalizedName(TBCore.modid + "." + "rainbowcactus");
     }
 
 
