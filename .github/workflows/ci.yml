@@ -23,5 +23,5 @@ jobs:
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v2.2.2
       with:
-        name: thaumicbases-3.3.500.6r+-onlyfortest
+        name: thaumicbases-3.3.500.6r+
         path: ./build/libs/*.jar
